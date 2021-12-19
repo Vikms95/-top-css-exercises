@@ -1,17 +1,39 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+
 }
+
 
 img {
   width: 100px;
   height: 100px;
+  /* margin: 52px; */
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  display: flex;
+  margin-bottom: 32px;
+  justify-content: center;
 }
 
+.items{
+  margin: 52px;
+  display: flex;
+  flex-flow: row:
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.text{
+  display: flex;
+  flex-flow: row wrap;
+  
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
