@@ -9,20 +9,41 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
+.header .left{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.header .right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
 .profile-image {
+  margin: 16px;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
-  width: 48px;
-  height:  48px;
+  width: 60px;
+  height: 60px;
 }
 
 .logo {
+  margin: 16px;
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -45,4 +66,8 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap:8px ;
+  /* justify-content: space-evenly; */
+  
 }
